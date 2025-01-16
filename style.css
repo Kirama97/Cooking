@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-transform: none;
+    font-family: Roboto;
+    
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 5%;
+    height: 8vh;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.183);
+    
+}
+
+.logo {
+    font-family: "Lobster", serif;
+}
+
+
+nav {
+    display: flex;
+    gap: 30px;
+
+}
+
+nav a {
+    color: black;
+    font-size: 1.2rem;
+}
+
+
+.reseaux{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.reseaux svg:nth-child(1)  {
+    width: 12px;
+}
+
+.reseaux svg {
+    width: 20px;
+    fill: black;
+    cursor: pointer;
+}
+
+/* main */
+
+
+section {
+    padding: 3% 5%;
+}
+
+/* hero */
+
+.hero {
+   
+   height: calc(100vh - 8vh);
+   width: 100%;
+   
+
+}
+
+.hero .slide {
+   
+    height: 100%;
+    display: flex;
+    border-radius: 20px;
+    
+}
+
+
+/* --------------------------------left slide */
+
+.hero .slide .left_slide {
+    background-color:#E7FAFE;
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding:3%;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+
+
+}
+
+.left_slide .top {
+    background-color: white;
+    width: 200px;
+    padding: 10px 20px;
+    border-radius: 40px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.top img {
+    width: 15%;
+    object-fit: cover;
+}
+
+.top span {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+
+/* content */
+
+
+
+ .left_slide .content {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-bottom: 20px;
+ }
+
+ .left_slide .content h1{
+    font-size: 5rem;
+ }
+
+ .left_slide .content p {
+    font-size: 1.3rem;
+    line-height: 35px;
+    color: rgba(0, 0, 0, 0.51);
+ }
+
+ .left_slide .content .slide_btn {
+    display: flex;
+    gap: 20px;
+ }
+
+ .slide_btn button {
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    background-color:#27282914;
+    gap: 10px;
+    font-size: 1.3rem;
+    border: none;
+    color: #3c3e3ec3;
+    outline: none;
+    border-radius: 40px;
+ }
+
+ .slide_btn button svg {
+    width: 40px;
+ }
+
+ .footer {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+ }
+ .footer .profil {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+ }
+
+ .footer .profil img {
+    width: 12%;
+    border-radius: 50%;
+    
+ }
+
+
+ .profil .profil_description {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+ }
+
+ .profil .profil_description h3 {
+    font-weight: 800;
+    font-size: 1.3rem;
+    
+ }
+ .profil .profil_description p {
+   
+    font-size: 1rem;
+    font-weight: 800;
+    color: rgba(0, 0, 0, 0.51);
+    
+ }
+
+ .footer .footer_btn {
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    gap: 10px;
+    align-items: center;
+    background-color: black;
+    border-radius: 20px;
+    color: white;
+ }
+
+
+ .footer .footer_btn p {
+    font-size: 0.9rem;
+ }
+
+
+ .footer .footer_btn svg {
+   width: 25px;
+   fill: white;
+ }
+
+
+
+/* ----------------------------------right slide */
+
+.hero .slide .right_slide {
+    background-color: rgb(31, 53, 53);
+    background: url(/Resources/image/Mask\ Group.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    flex-basis: 50%;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+
+}
+
