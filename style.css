@@ -136,7 +136,7 @@ section {
  }
 
  .left_slide .content h1{
-    font-size: 5rem;
+    font-size: clamp(1.5rem,3vw,5rem);
  }
 
  .left_slide .content p {
