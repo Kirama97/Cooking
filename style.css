@@ -228,9 +228,9 @@ section {
     outline: none;
     display: flex;
     justify-content: center;
-    width: 30% ;
-    gap: 5px;
     align-items: center;
+    width: 30% ;
+    gap: 10px;
     background-color: black;
     border-radius: 20px;
     color: white;
@@ -245,7 +245,7 @@ section {
 
  .footer .footer_btn svg {
    width: 25px;
-   fill: rgb(34, 31, 31);
+   fill: rgb(255, 255, 255);
  }
 
 
@@ -577,6 +577,7 @@ section {
 
  .left_slide .slide_btn span {
     color: rgb(0, 0, 0);
+    font-size: .8rem;
  }
  .left_slide .slide_btn button {
     background-color: white;
@@ -638,6 +639,8 @@ section {
     .hero {
 
         width: 100%;
+        height:90lvh;
+        padding: 2%;
         
        
     }
