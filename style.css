@@ -639,8 +639,8 @@ section {
     .hero {
 
         width: 100%;
-        height:90lvh;
-        padding: 2%;
+        height:85lvh;
+        padding: 0%;
         
        
     }
@@ -650,7 +650,7 @@ section {
         height: 100%;
         display: flex;
         justify-content: center;
-         padding:20px;
+        padding: 0 10px ;
         border-radius: 20px;
         
        
