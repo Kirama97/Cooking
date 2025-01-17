@@ -575,6 +575,13 @@ section {
     
  }
 
+ .left_slide .slide_btn span {
+    color: rgb(0, 0, 0);
+ }
+ .left_slide .slide_btn button {
+    background-color: white;
+ }
+
  .left_slide .content p {
     color: white;
  }
