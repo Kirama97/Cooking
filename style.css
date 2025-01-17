@@ -523,11 +523,15 @@ section {
     padding: 5%;
 }
 
+.recipe_content .pub img{
+    width: clamp(60%, 70%, 80%);
+}
+
 
 
 .recipe_content .pub h1{
     font-family: "Lobster", serif;
-    font-size: 25px;
+    font-size: clamp(12px,4vw,25px);
     letter-spacing: 5px;
     text-align: center;
 }
