@@ -384,6 +384,49 @@ section {
 
 
 
+
+/* section recipe */
+
+.recipes{
+    /* background-color: aqua; */
+    height: 100vh;
+}
+
+.recipes .recipte_title{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+
+
+.recipte_title h1 {
+    font-size: clamp(16px,5vw,40px);
+    margin-bottom: 20px;
+}
+
+.recipte_title p {
+    font-size: clamp(12px,3vw,20px);
+    width: clamp(70%,3vw,80%);
+    color: #3c3e3ec3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* responsive */
 
 
