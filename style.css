@@ -414,6 +414,7 @@ section {
 .recipe_title h1 {
     font-size: clamp(16px,5vw,40px);
     margin-bottom: 20px;
+    
 }
 
 .recipe_title p {
@@ -424,13 +425,13 @@ section {
 
 
 .recipes .recipe_content {
-  
+
     margin-top: 40px;
     height: 100%;
     width: 100%;
-    padding: 5%  12%;
+    padding: 5%  0;
     display: grid;
-    grid-template-columns: repeat(auto-fit ,minmax(370px ,1fr));
+    grid-template-columns: repeat(auto-fit ,minmax(400px ,1fr));
     gap: 50px;
 
 }
@@ -549,7 +550,7 @@ section {
 
 .chef {
     /* background-color: #1D483B; */
-    height: 100vh;
+    height: 90vh;
     width: 100%;
    
 } 
@@ -561,6 +562,7 @@ section {
     /* align-items: center; */
     gap: 30px;
     justify-content: center;
+    padding-right:4% ;
 
     
 }
@@ -568,6 +570,7 @@ section {
 .chef .texte h1 {
     font-size: clamp(20px,4vw, 60px);
     font-weight: 800;
+
 }
 .chef .texte p {
     font-size: clamp(12px,4vw, 18px);
@@ -1206,22 +1209,27 @@ section {
     flex-direction: column;
     /* align-items: center; */
     gap: 30px;
+    
+    margin-right: 0%;
    
    
     
 }
 
 .chef .texte h1 {
-    font-size: clamp(20px,5vw, 60px);
+    font-size: clamp(25px,5vw, 60px);
+    text-align: center;
     font-weight: 800;
 }
 .chef .texte p {
     font-size: clamp(12px,4vw, 18px);
-    width: 90%;
+    width: 100%;
+    text-align: center;
 }
 
 .chef .texte .chef_bt{
   width: 50%;
+  margin: 0 auto;
   padding: 10px 15px ;
   font-size: calc(10px,3vw,15px);
  
