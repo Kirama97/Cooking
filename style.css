@@ -44,12 +44,15 @@ header {
 nav {
     display: flex;
     gap: 30px;
+    
 
 }
 
 nav a {
     color: black;
     font-size: 1.1rem;
+    text-decoration: none;
+   
 }
 
 
@@ -222,7 +225,7 @@ section {
     
  }
 
- .footer .footer_btn {
+ .footer .footer_bt {
     padding: 5px 10px;
     border: none;
     outline: none;
@@ -238,12 +241,15 @@ section {
  }
 
 
- .footer .footer_btn p {
+ .footer .footer_bt p {
     font-size: clamp(16px , 2px ,12px);
+    margin: 0;
+    
+    
  }
 
 
- .footer .footer_btn svg {
+ .footer .footer_bt svg {
    width: 25px;
    fill: rgb(255, 255, 255);
  }
@@ -385,7 +391,7 @@ section {
 
 
 
-/* section recipe */
+/* ---------------------------------------------section recipe */
 
 .recipes{
     /* background-color: aqua; */
@@ -537,6 +543,92 @@ section {
 }
 
 
+/* -------------------------section chez */
+
+
+
+.chef {
+    /* background-color: #1D483B; */
+    height: 100vh;
+    width: 100%;
+   
+} 
+
+.chef .texte{
+   
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    gap: 30px;
+    justify-content: center;
+
+    
+}
+
+.chef .texte h1 {
+    font-size: clamp(20px,4vw, 60px);
+    font-weight: 800;
+}
+.chef .texte p {
+    font-size: clamp(12px,4vw, 18px);
+    color: #27282982;
+    line-height: 35px;
+    width: 80%;
+}
+
+.chef .texte .chef_bt{
+  width: 30%;
+  padding: 20px 15px ;
+  font-size: calc(12px,4vw,25px);
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+}
+
+
+.chef .image_chef{
+    background:linear-gradient(to bottom ,rgb(255, 255, 255),var(--blue));
+    border-radius: 30px;
+    position: relative;
+
+}
+
+
+.chef .image img{
+    width: clamp(100%,4vw,60%);
+  position: absolute;
+  left: -10%;
+  bottom:  0;
+  
+
+}
+
+.chef .image .oignon {
+    position: absolute;
+    width: clamp(30px,4vw,70px);
+    top: clamp(15%,4vw,45%);
+    left: 70%;
+}
+.chef .image .salade {
+    position: absolute;
+    width: clamp(50px,4vw,100px);
+    top: 40%;
+    left: 85%;
+}
+
+.chef .image .tomate {
+    position: absolute;
+    width: clamp(40px,4vw,60px);
+    bottom: 20%;
+    left: -2%;
+}
+.chef .image .viande {
+    position: absolute;
+    width: clamp(0px,4vw,100px);
+    top: 15%;
+    left: 4%;
+}
+
 
 
 
@@ -671,6 +763,7 @@ section {
    
     font-size: 0.9rem;
     
+    
  }
 
  .footer .footer_btn {
@@ -678,7 +771,6 @@ section {
     justify-content: space-around;
     width: 300px;
     gap: 10px;
-
     align-items: center;
     background-color: rgb(0, 0, 0);
     border-radius: 15px;
@@ -687,6 +779,7 @@ section {
 
  .footer .footer_btn p {
     font-size: 0.8rem;
+   
  }
 
 
@@ -694,6 +787,84 @@ section {
    width: 20Px;
    fill: white;
  }
+
+/* --------chef */
+
+
+.chef {
+
+    margin: 0;
+}
+
+.chef .texte{
+   
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    gap: 30px;
+   
+   
+    
+}
+
+.chef .texte h1 {
+    font-size: clamp(20px,5vw, 60px);
+    font-weight: 800;
+}
+.chef .texte p {
+    font-size: clamp(12px,4vw, 18px);
+    width: 90%;
+}
+
+.chef .texte .chef_bt{
+  width: 30%;
+  padding: 20px 15px ;
+  font-size: calc(12px,4vw,25px);
+ 
+}
+
+
+.chef .image_chef{
+    background:linear-gradient(to bottom ,rgb(255, 255, 255),var(--blue));
+    border-radius: 30px;
+  
+    height: 50vh;
+
+}
+
+
+.chef .image img{
+    width: clamp(70%,5vw,60%);
+  left: 10%;
+  bottom:  0%;
+  
+
+}
+
+.chef .image .oignon {
+    width: clamp(50px,4vw,70px);
+    top: clamp(15%,4vw,45%);
+    left: 70%;
+}
+.chef .image .salade {
+   
+    width: clamp(60px,4vw,100px);
+    top: 60%;
+    left: 85%;
+}
+
+.chef .image .tomate {
+    position: absolute;
+    width: clamp(50px,4vw,60px);
+    bottom: 10%;
+    left: -2%;
+}
+.chef .image .viande {
+    position: absolute;
+    width: clamp(70px,4vw,100px);
+    top: 15%;
+    left: 4%;
+}
 
 
 
@@ -718,7 +889,7 @@ section {
        
         border-top-right-radius: 30px;
         border-bottom-right-radius: 30px;
-        flex-basis: inherit;
+        flex: 1;
         background:linear-gradient(rgba(37, 90, 125, 0.672),rgba(0, 0, 0, 0.661)), url(/Resources/image/Mask\ Group.png);
         background-position: center;
         background-size: cover;
@@ -756,22 +927,28 @@ section {
  }
 
  .footer {
-    padding: 5% ;
+    padding: 2% ;
+   
+    
+ }
+
+ .footer .profil_description{
+    gap: 5px;
     
  }
 
  .footer .profil_description h3{
-    font-size: 1rem;
+    font-size: 0.7rem;
  }
  .footer .profil_description p{
     font-size: .6rem;
  }
 
 
- .footer .footer_btn {
-    padding: 2px 5px;
-    justify-content: space-between;
-    width: 250px;
+ .footer .footer_bt {
+    padding: 5px 5px;
+    height: 50%;
+    flex: 1;
     gap: 5px;
     align-items: center;
     background-color:black;
@@ -779,16 +956,22 @@ section {
     color: rgb(255, 255, 255);
  }
 
-.footer_btn svg {
-    fill: black;
+.footer_svg {
+    fill: rgb(128, 13, 13);
     color: rgb(255, 255, 255);
+    width: 10px;
+ }
+ 
+ .footer .profil {
+    flex: 1;
+    align-items: center;
  }
 
  .footer .profil p{
     color: rgba(255, 255, 255, 0.724);
  }
 
- .footer .footer_btn p {
+ .footer .footer_bt p {
     font-size: 0.5rem;
  }
 
@@ -804,15 +987,17 @@ section {
 
         width: 100%;
         height:80lvh;
-        padding: 0%;
+        padding: 0 3%;
         margin-bottom: 20px;
+       
+
         
        
     }
 
     .hero .slide {
-   
         height: 100%;
+        align-items: center;
         display: flex;
         justify-content: center;
         padding: 0% ;
@@ -999,7 +1184,84 @@ section {
      
      
      
-     
+     /* --------chef */
+
+
+.chef {
+
+    margin: 0;
+}
+
+.chef .texte{
+   
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    gap: 30px;
+   
+   
+    
+}
+
+.chef .texte h1 {
+    font-size: clamp(20px,5vw, 60px);
+    font-weight: 800;
+}
+.chef .texte p {
+    font-size: clamp(12px,4vw, 18px);
+    width: 90%;
+}
+
+.chef .texte .chef_bt{
+  width: 50%;
+  padding: 10px 15px ;
+  font-size: calc(10px,3vw,15px);
+ 
+}
+
+
+.chef .image_chef{
+    background:linear-gradient(to bottom ,rgb(255, 255, 255),var(--blue));
+    border-radius: 30px;
+    height: 40vh;
+
+}
+
+
+.chef .image img{
+    width: clamp(70%,5vw,60%);
+  left: 10%;
+  bottom:  0%;
+  
+
+}
+
+.chef .image .oignon {
+    width: clamp(40px,4vw,70px);
+    top: clamp(15%,4vw,45%);
+    left: 70%;
+}
+.chef .image .salade {
+   
+    width: clamp(50px,4vw,100px);
+    top: 60%;
+    left: 85%;
+}
+
+.chef .image .tomate {
+    position: absolute;
+    width: clamp(30px,4vw,60px);
+    bottom: 10%;
+    left: -2%;
+}
+.chef .image .viande {
+    position: absolute;
+    width: clamp(50px,4vw,100px);
+    top: 15%;
+    left: 4%;
+}
+
+
      
      
      
