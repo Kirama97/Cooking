@@ -582,7 +582,7 @@ section {
   font-size: calc(12px,4vw,25px);
   background-color: black;
   color: white;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 
 
@@ -739,10 +739,12 @@ section {
 
 
  .footer {
-    gap: 10px;
+  
+    display: flex;
+    align-items: center;
  }
  .footer .profil {
-  
+     flex: 1;
     gap: 15px;
  }
 
@@ -752,11 +754,13 @@ section {
     
  }
 
-
+.profil_description {
+   
+}
 
  .profil .profil_description h3 {
    
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     
  }
  .profil .profil_description p {
@@ -766,10 +770,12 @@ section {
     
  }
 
- .footer .footer_btn {
-    padding: 5px 10px;
-    justify-content: space-around;
-    width: 300px;
+ .footer .footer_bt {
+    flex: 1;
+    width: 60%;
+    padding: 5px 5px;
+    /* justify-content: space-around; */
+    height:50%;
     gap: 10px;
     align-items: center;
     background-color: rgb(0, 0, 0);
@@ -777,13 +783,13 @@ section {
     color: white;
  }
 
- .footer .footer_btn p {
-    font-size: 0.8rem;
+ .footer .footer_bt p {
+    font-size: 0.7rem;
    
  }
 
 
- .footer .footer_btn svg {
+ .footer .footer_bt svg {
    width: 20Px;
    fill: white;
  }
@@ -1170,7 +1176,8 @@ section {
      
      .recipe_content .pub {
        
-         padding: 5%;
+         padding: 10%;
+         justify-content: center;
      }
      
      
@@ -1180,6 +1187,7 @@ section {
          font-size: 25px;
          letter-spacing: 5px;
          text-align: center;
+         margin-top: 20px;
      }
      
      
