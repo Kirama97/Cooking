@@ -946,8 +946,8 @@ section {
 
 
  .footer .footer_bt {
-    padding: 5px 5px;
-    height: 50%;
+    padding: 10px 5px;
+    height: 70%;
     flex: 1;
     gap: 5px;
     align-items: center;
@@ -972,7 +972,7 @@ section {
  }
 
  .footer .footer_bt p {
-    font-size: 0.5rem;
+    font-size: 0.7rem;
  }
 
 
@@ -997,7 +997,7 @@ section {
 
     .hero .slide {
         height: 100%;
-        align-items: center;
+
         display: flex;
         justify-content: center;
         padding: 0% ;
