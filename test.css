@@ -11,10 +11,8 @@
     
 }
 
-
 :root {
     --blue : #E7FAFE;
-    --p-color :  #27282982;
 }
 
 header {
@@ -224,7 +222,7 @@ section {
    
     font-size: 1rem;
     font-weight: 800;
-   color: var(--p-color);
+    color: rgba(0, 0, 0, 0.51);
     
  }
 
@@ -423,7 +421,7 @@ section {
 .recipe_title p {
     font-size: clamp(12px,3vw,20px);
     width: clamp(70%,3vw,80%);
-   color: var(--p-color);
+    color: #3c3e3ec3;
 }
 
 
@@ -547,7 +545,7 @@ section {
 }
 
 
-/* -------------------------section chef */
+/* -------------------------section chez */
 
 
 
@@ -577,7 +575,7 @@ section {
 }
 .chef .texte p {
     font-size: clamp(12px,4vw, 18px);
-    color:var(--p-color);
+    color: #27282982;
     line-height: 35px;
     width: 80%;
 }
@@ -636,36 +634,8 @@ section {
 }
 
 
-/* ------------------------------------section insta */
 
 
-.insta{
-   
-    height: 90vh;
-    margin-top: 100px;
-}
-
-.insta_texte {
-    text-align: center;
-}
-
-.insta_texte h1 {
-    font-size: clamp(16px,5vw,40px);
-    margin-bottom: 20px;
-    font-weight: 800;
-}
-
-.insta_texte p {
-    width: 50%;
-    margin: 0 auto;
-    color: var(--p-color);
-
-}
-
-
-.insta .insta_img {
-    background-color: #1D483B;
-}
 
 
 
