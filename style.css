@@ -42,9 +42,6 @@ header {
     display: none;
 }
 
-nav.active {
-    display: flex;
-}
 
 
 nav {
@@ -1238,13 +1235,49 @@ section {
         display: flex;
         width: 4%;
      }
+     .burguer:active {
+        fill: #1D483B;
+     }
 
+     .reseaux {
+        display: none;
+     }
+
+
+     .header {
+        position: relative;
+     }
 
     header nav {
         display: none;
+        padding: 5%;
+        justify-content: center;
+        position: absolute;
+        background-color: var(--blue);
+        top: 100%;
+        left: 0;
+        height: 100lvh;
+        flex-direction: column;
+        width: 0%;
+        z-index: 100;
+        border-bottom-right-radius:20px ;
+        transition-property: all;
+    
 
     }
 
+    nav a:hover {
+        color: #1D483B;
+    }
+
+    nav.active {
+        display: flex;
+        width: 70%;
+        transition:  0.5s ease;
+    }
+    
+
+  
 
     .hero {
    
@@ -1671,22 +1704,16 @@ section {
     width: clamp(10% ,2vw,80%)
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1695,10 +1722,15 @@ section {
     section {
         padding: 2% 5%;
     }
+
    
     .burguer {
         display: flex;
         width: 6%;
+     }
+
+     nav a {
+        font-size: 14px;
      }
      
     .badge  {
