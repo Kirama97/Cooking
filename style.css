@@ -1256,12 +1256,11 @@ section {
         background-color: var(--blue);
         top: 100%;
         left: 0;
-        height: 100lvh;
+        height: 70lvh;
         flex-direction: column;
         width: 0%;
-        z-index: 100;
         border-bottom-right-radius:20px ;
-        transition-property: all;
+      
     
 
     }
@@ -1275,6 +1274,16 @@ section {
         width: 70%;
         transition:  0.5s ease;
     }
+
+    nav a {
+        font-size: 18px;
+        font-weight: 700;
+        display: block;
+        padding: 5px;
+        background-color: rgba(255, 255, 255, 0.436);
+        border-radius: 10px;
+        
+     }
     
 
   
@@ -1729,9 +1738,7 @@ section {
         width: 6%;
      }
 
-     nav a {
-        font-size: 14px;
-     }
+    
      
     .badge  {
         right:3%;
