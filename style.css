@@ -930,10 +930,116 @@ section {
 
 
 
+/* --------------------------delicious inbox */
 
 
+.inbox {
+    background-color: var(--blue);
+    border-radius: 20px;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.inbox .inbox_texte {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inbox .inbox_texte h1 {
+    font-size: clamp(1.5rem,3vw,3rem);
+    font-weight: 800;
+    margin-bottom: 20px;
+
+}
 
 
+.inbox .inbox_texte p {
+    display: -webkit-box;
+    width: 70%;
+    text-align: center;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2; 
+    overflow: hidden;
+    color: var(--p-color);
+}
+
+.inbox .formulaire {
+    margin: 50px 0;
+    padding: 20px;
+    /* background-color: aqua; */
+    width:  100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inbox .formulaire_bloc {
+    background-color:white;
+    padding: 0 10px ;
+    height: 8vh;
+    width: 60%;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.formulaire_bloc input {
+    padding: 10px;
+    width: 70%;
+    border: none;
+    outline: none;
+}
+
+.formulaire_bloc input::placeholder {
+    color: var(--p-color);
+    
+}
+
+
+.formulaire_bloc .view_all {
+    padding: 15px 15px;
+    width: 30%;
+    /* width: clamp(20%, 15%); */
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    font-size: clamp(16px, 1em, 1rem);
+    color:white;
+    background-color:black;
+    cursor: pointer;
+
+}
+
+
+.inbox svg {
+  width: clamp(30% ,2vw,100%);
+}
+
+.inbox .d_image_left {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.inbox .d_image_right {
+  
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.inbox .percile {
+    position: absolute;
+    bottom: 25%;
+    right: 20%;
+    width: clamp(10% ,2vw,80%)
+
+}
 
 
 
@@ -1171,8 +1277,9 @@ section {
     font-weight: 800;
 }
 .chef .texte p {
-    font-size: clamp(12px,4vw, 18px);
-    width: 90%;
+    font-size: clamp(16px,4vw, 14px);
+    line-height: 25px;
+    width: 92%;
 }
 
 .chef .texte .chef_bt{
@@ -1239,6 +1346,7 @@ section {
 
 .insta_texte p {
     width: 100%;
+    font-size: 14px;
   
 
 }
@@ -1267,22 +1375,15 @@ section {
 }
 
 .insta_bt{
-  width:35%;
+  width:45%;
+  font-size: 14px;
 
 }
 
 
-
-
-
-
-
 /* delicious------------------------------- */
 
-/* 
-.delicious {
-  
-} */
+
 
 
 .delicious .delicious_texte {
@@ -1292,64 +1393,46 @@ section {
     gap: 20px;
     text-align: center;
 
-
 }
-
-
 
 
 .delicious_texte p {
     width: 85%;
     
-   
 }
 
-
- .delicious_content .row {
+.delicious_content .row {
    margin: 0 auto;
-   
-   
+     
 } 
 
 
 /* description delicious */
 
 .delicious_content .coeur {
-    width: 35px;
-    
-   
+    width: 35px;  
 }
-
-
 
 .delicious_content .recipe_description {
     padding: 5%;
     height: 50%;
     position: relative;
-
-    
+   
 }
 .delicious_content .slide_btn {
 
     gap: 2px;
-    /* background-color: #1D483B; */
     overflow-x: hidden;
-
 }
+
 .delicious_content .slide_btn button {
-  
     gap: 5px;
-    
-   
-
-    
+        
 }
+
 .delicious_content .slide_btn svg {
     width: 25px;
 }
-
-
-
 
 
 .delicious_content .recipe_description h1 {
@@ -1366,9 +1449,7 @@ section {
 .delicious_content .recipe_description .slide_btn {
     display: flex;
     gap: 20px;
-    
-  
-    
+
 }
 .delicious_content .recipe_description .slide_btn button span{
     
@@ -1377,7 +1458,6 @@ section {
     -webkit-line-clamp: 1; 
     overflow: hidden;
 }
-
 
 .delicious_content .recipe_description .slide_btn button {
    padding: 0;
@@ -1388,6 +1468,79 @@ section {
 
 
 
+
+
+/* --------------------------delicious inbox */
+
+
+.inbox {
+    height: 60vh;
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+
+
+
+.inbox .inbox_texte p {
+   font-size: 14px;
+}
+
+.inbox .formulaire {
+    margin: 30px 0;
+    padding: 10px;
+    
+}
+
+.inbox .formulaire_bloc {
+ 
+    padding: 0 10px ;
+    height: 7vh;
+    width: 70%;
+    gap: 0px ;
+}
+
+.formulaire_bloc input {
+    padding: 10px;
+    width: 70%;
+   
+}
+
+.formulaire_bloc input::placeholder {
+    color: var(--p-color);
+    font-size: 14px;
+    
+}
+
+
+.formulaire_bloc .view_all {
+    padding: 10px 10px;
+    width: 30%;
+    font-size: clamp(12px, 5vw, 14px);
+
+}
+
+
+.inbox svg {
+  width: clamp(20% ,5vw,100%);
+}
+
+.inbox .d_image_left {
+    left: 0;
+    bottom: -25%;
+}
+.inbox .d_image_right {
+  
+    bottom: -10%;
+    right: 0;
+}
+
+.inbox .percile {
+    top: 5%;
+    right:35%;
+    width: clamp(10% ,2vw,80%)
+
+}
 
 
 
@@ -1897,6 +2050,82 @@ section {
 
 
 
+
+/* --------------------------delicious inbox */
+
+
+.inbox {
+    height: 45vh;
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+
+.inbox .inbox_texte h1 {
+    font-size: 20px;
+}
+
+
+.inbox .inbox_texte p {
+   font-size: 12px;
+}
+
+.inbox .formulaire {
+    margin: 20px 0;
+    
+}
+
+.inbox .formulaire_bloc {
+ 
+    padding: 5px ;
+    height: 5vh;
+    width: 80%;
+    overflow: hidden;
+    
+  
+}
+
+.formulaire_bloc input {
+    padding:  5px;
+    width: 60%;
+   
+}
+
+.formulaire_bloc input::placeholder {
+    
+    font-size: 12px;
+    
+}
+
+
+.formulaire_bloc .view_all {
+    padding: 7px 10px;
+    width: 40%;
+    font-size:12px;
+
+}
+
+
+.inbox svg {
+  width: 25%;
+}
+
+.inbox .d_image_left {
+    left: 0;
+    bottom: -35%;
+}
+.inbox .d_image_right {
+  
+    bottom: -15%;
+    right: 0;
+}
+
+.inbox .percile {
+    top:2%;
+    right:5%;
+    width: 20%;
+
+}
 
 
 
