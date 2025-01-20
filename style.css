@@ -1051,8 +1051,10 @@ section {
 
 
 footer {
-    padding: 10%;
-    height: 45vh;
+    padding: 0 10%;
+    height: auto;
+    margin-top: 150px;
+    background: linear-gradient(to bottom ,white,rgba(250, 235, 215, 0.444));
 }
 
 
@@ -1791,10 +1793,14 @@ section {
 /* ----------------------------------------Footer */
 
 
+
 footer {
-    padding:0% 5% ;
-    height: 35vh;
+    background: linear-gradient(to bottom ,white,rgba(250, 235, 215, 0.444));
+    height: auto;
+    margin-top: 50px;
+    padding: 0% 3%;
 }
+
 
 
 footer .logo {
@@ -2481,6 +2487,7 @@ footer {
     background: linear-gradient(to bottom ,white,rgba(250, 235, 215, 0.444));
     height: auto;
     margin-top: 50px;
+    padding: 2% 3%;
 }
 
 
