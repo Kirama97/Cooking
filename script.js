@@ -17,7 +17,7 @@ bt_parametre.forEach((element , index) => {
      element.onclick = ()=> {
       
          element.classList.toggle("toucher");
-         
+
          if (bloc_parametre[index]) {
             bloc_parametre[index].classList.toggle("active");
         }
@@ -26,3 +26,13 @@ bt_parametre.forEach((element , index) => {
          
      } 
 });
+
+
+// document.addEventListener('click', () => {
+//     bt_parametre.forEach((btn, i) => {
+//         btn.classList.remove("toucher"); 
+//         if (bloc_parametre[i]) {
+//             bloc_parametre[i].classList.remove("active"); 
+//         }
+//     });
+// });

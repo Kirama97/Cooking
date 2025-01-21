@@ -2617,7 +2617,7 @@ footer .licence {
      
   
 .insta{
-   
+    padding: 3% 7%;
     /* height: 90vh; */
     margin-top: 50px;
     background:linear-gradient(to bottom ,rgb(255, 255, 255),var(--blue));
@@ -2647,9 +2647,10 @@ footer .licence {
   
 }
 
+
+
 .insta_item {
     background-color: white;
-  
     width: 100%;
     margin: 10px 0;
   
