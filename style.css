@@ -1137,6 +1137,7 @@ footer .licence {
     display: flex;
     align-items: center;
     gap: 5px;
+    position: relative;
 
     
     
@@ -1148,6 +1149,7 @@ footer .licence {
    font-size: 14px;
    font-weight: 700;
    margin: 0;
+   
 
 
   
@@ -1173,6 +1175,9 @@ footer .licence {
     border-radius: 50%;
     width: 15px;
     height: 15px;
+    top: 0;
+    right: -23%;
+    position: absolute;
 
 }
 .insta_top_left .check svg {
@@ -1190,10 +1195,11 @@ footer .licence {
 }
 
 .insta_footer  .insta_footer_link{
-   background-color: #0091ff;
+   /* background-color: #0091ff; */
    height: 5vh;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 10px;
 }
 
@@ -1201,21 +1207,86 @@ footer .licence {
 .insta_footer  .insta_footer_link .link_insta {
   display: flex;
   align-items: center;
-  gap: 10px;
-    
-}
-.insta_footer  .insta_footer_link .link_insta svg {
-  
- fill: black;
- font-weight: 300;
+  flex: 1;
     
 }
 
-.insta_footer .insta_footer_link .partage {
-    transform:rotate(-40deg) ;
+.link_insta:nth-child(1) {
+    gap: 10px;
 }
-.insta_footer .insta_footer_link .commenter {
-   width: 20px;
+
+.insta_footer  .insta_footer_link .link_insta svg {
+  
+ fill: black;
+ width: 20px;
+    
+}
+
+
+.link_insta_slide{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+
+    
+
+}
+
+.link_insta_slide span:nth-child(1) {
+    background-color: #0091ff;
+}
+
+.link_insta_slide span {
+    border-radius: 50%;
+    background-color:var(--p-color);
+    width: 5px;
+    height: 5px;
+}
+
+
+.insta_footer_link .partage {
+    justify-content: flex-end;
+    
+}
+
+/* zone commentaire */
+
+.insta_zone_commentaire {
+
+    padding: 10px;
+}
+
+.insta_zone_commentaire .zone_profil {
+   
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 5px;
+} 
+
+.insta_zone_commentaire .zone_profil img {
+    width: 20px;
+    border-radius: 50%;
+} 
+
+.zone_profil p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.insta_zone_commentaire .le_commentaire p {
+  font-size: 14px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2; 
+  overflow: hidden
+}
+
+.insta_zone_commentaire .date_commentaire p {
+   margin: 0;
+   font-size: 12px;
+   color: var(--p-color);
 }
 
 
