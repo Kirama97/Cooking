@@ -55,21 +55,21 @@
 
 
 .carousel-indicators button  {
-    background-color: rgb(0, 0, 0);
+   
     opacity: 1;
   }
   
   .carousel-indicators .active {
-    background-color: #1780b1; 
+    background-color: rgb(18, 180, 230); 
   }
  
   .carousel-indicators button {
     width: 25px;
     height: 15px;
-    /* border-radius: 50%; */
+    border-radius: 50%;
   }
 
-
+ 
 
 header {
     display: flex;
@@ -98,6 +98,10 @@ header {
 .burguer {
     width: 2%;
     display: none;
+}
+
+.burguer.active {
+    fill: #0091ff;
 }
 
 
@@ -1529,9 +1533,7 @@ footer .licence {
 }
 
 
-.carousel-indicators .active {
-    background-color: #1780b1c0; 
-  }
+
     
 
 
@@ -1727,18 +1729,7 @@ section {
 }
 
 
-.carousel-indicators .active {
-    background-color: #1780b1cc; 
-  }
-    
-.carousel-indicators button {
-    background-color: #1780b11c; 
-  }
-    
-.carousel-indicators button {
-   width: 5px; 
-   
-  }
+
 
   
 
@@ -1773,7 +1764,7 @@ section {
         justify-content: center;
         align-items: center;
         position: absolute;
-        background-color: var(--blue);
+        background-color: #0091ff;
         top: 100%;
         left: 0;
         height: 70lvh;
@@ -1803,6 +1794,7 @@ section {
         justify-content: center;
         padding: 5px;
         width: 50%;
+        color: white;
         background-color: rgba(255, 255, 255, 0.212);
         border-radius: 10px;
         
@@ -2361,7 +2353,9 @@ footer .licence {
 
 .carousel-indicators [data-bs-target] {
     width: 10px;
+   
 }
+
 
 
 
