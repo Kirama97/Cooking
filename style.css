@@ -1737,10 +1737,10 @@ section {
     
 .carousel-indicators button {
    width: 5px; 
+   
   }
-    
 
-
+  
 
 
 
@@ -2359,6 +2359,9 @@ footer .licence {
     display: none;
 }
 
+.carousel-indicators [data-bs-target] {
+    width: 10px;
+}
 
 
 
