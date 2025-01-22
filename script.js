@@ -28,11 +28,3 @@ bt_parametre.forEach((element , index) => {
 });
 
 
-// document.addEventListener('click', () => {
-//     bt_parametre.forEach((btn, i) => {
-//         btn.classList.remove("toucher"); 
-//         if (bloc_parametre[i]) {
-//             bloc_parametre[i].classList.remove("active"); 
-//         }
-//     });
-// });

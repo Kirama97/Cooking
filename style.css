@@ -17,6 +17,60 @@
     --p-color :  #27282982;
 }
 
+
+/* carrousel */
+
+.carousel-control-next ,
+.carousel-control-prev {
+    width: 5%;
+    
+}
+
+
+.carousel-control-prev-icon ,
+.carousel-control-next-icon {
+    background-color: var(--blue);
+}
+
+
+.carousel {
+    position: relative;
+}
+
+/* mon indication */
+
+
+.carousel-indicators {
+    /* background-color: #000000; */
+    gap: 20px;
+    position: absolute;
+    bottom:  7%;
+    width: 100%;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+
+.carousel-indicators button  {
+    background-color: rgb(0, 0, 0);
+    opacity: 1;
+  }
+  
+  .carousel-indicators .active {
+    background-color: #1780b1; 
+  }
+ 
+  .carousel-indicators button {
+    width: 25px;
+    height: 15px;
+    /* border-radius: 50%; */
+  }
+
+
+
 header {
     display: flex;
     align-items: center;
@@ -272,7 +326,7 @@ section {
 /* ----------------------------------right slide */
 
 .hero .slide .right_slide {
-    background-color: rgb(31, 53, 53);
+    background-color: rgb(2, 24, 24);
     background: url(/Resources/image/Mask\ Group.png);
     background-size: cover;
     background-position: center;
@@ -1442,8 +1496,46 @@ footer .licence {
 
 @media screen and (max-width:1200px) {
     
+/* carrousel */
 
+.carousel-control-next ,
+.carousel-control-prev {
+    width: 3%;
     
+}
+
+.carousel-control-prev-icon ,
+.carousel-control-next-icon {
+    background-color: var(--blue);
+}
+
+
+
+
+/* mon indication */
+
+
+.carousel-indicators {
+    /* background-color: #000000; */
+    gap: 20px;
+    position: absolute;
+    bottom:  5%;
+    width: 100%;
+    height: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+
+.carousel-indicators .active {
+    background-color: #1780b1c0; 
+  }
+    
+
+
+
 section {
     padding: 3% 7%;
 }
@@ -1601,6 +1693,57 @@ section {
 
 @media screen and (max-width:800px) {
  
+
+/* carrousel */
+
+.carousel-control-next ,
+.carousel-control-prev {
+    width: 3%;
+    
+}
+
+.carousel-control-prev-icon ,
+.carousel-control-next-icon {
+    background-color: var(--blue);
+}
+
+
+
+
+/* mon indication */
+
+
+.carousel-indicators {
+    /* background-color: #000000; */
+    gap: 10px;
+    position: absolute;
+    bottom:  4%;
+    width: 100%;
+    height: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+
+.carousel-indicators .active {
+    background-color: #1780b19f; 
+  }
+    
+.carousel-indicators button {
+    background-color: #1780b11c; 
+  }
+    
+.carousel-indicators button {
+   width: 5px; 
+  }
+    
+
+
+
+
+
     section {
         padding:
          3% 6%;
@@ -2207,7 +2350,18 @@ footer .licence {
 
 
 @media screen and (max-width:500px) {
-    
+ 
+
+
+.carousel-control-prev-icon ,
+.carousel-control-next-icon {
+    background-color: var(--blue);
+    display: none;
+}
+
+
+
+
     section {
         padding: 2% 5%;
     }
