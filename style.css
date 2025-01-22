@@ -1666,6 +1666,19 @@ footer .licence {
 }
 
 
+.industry_bande {
+    background: linear-gradient(to left ,white,rgba(250, 235, 215, 0.253));
+    padding: 40px;
+    margin-bottom: 50px;
+    
+}
+.industry_bande h1 {
+    font-family: "Inter", serif;
+    font-size: 25px;
+    
+
+}
+
 .industry_right {
   flex-basis: 20%;
   display: flex;
