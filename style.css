@@ -1714,11 +1714,11 @@ section {
 
 
 .carousel-indicators {
-    /* background-color: #000000; */
+    background-color: #00000000;
     gap: 10px;
     position: absolute;
-    bottom:  4%;
-    width: 100%;
+    bottom:  3.4%;
+    width: 80%;
     height: 5px;
     display: flex;
     justify-content: center;
@@ -1728,7 +1728,7 @@ section {
 
 
 .carousel-indicators .active {
-    background-color: #1780b19f; 
+    background-color: #1780b1cc; 
   }
     
 .carousel-indicators button {
