@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lobster&display=swap');
 
 
 *{
@@ -1596,9 +1597,98 @@ footer .licence {
 
 
 
+/* section industry----- */
+
+
+.industry {
+    display: flex;
+    padding: 3% 10%;
+
+
+}
+
+.industry_left {
+ flex-basis: 80%;
+ background-color: white;
+ padding-left: 50px;
+  
+}
 
 
 
+.industry_left .industry_bloc {
+    /* background-color: #0091ff; */
+    height: 20vh;
+    margin: 20px 0;
+}
+
+.industry_left .industry_bloc h1 {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.industry_left .industry_bloc p ,
+.industry_left_cook p
+{
+  font-size: 16px;
+  color: var(--p-color);
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  text-align: left;
+  -webkit-line-clamp: 2; 
+  overflow: hidden;
+  margin: 50px 0;
+}
+
+
+.industry_left_cook {
+     
+}
+.industry_left_cook h1 {
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    
+}
+.industry_left_cook p {
+  
+    
+}
+
+.industry_left .industry_left_bg {
+    height: 50vh;
+    width: 100%;
+    background: url(/Resources/image/image\ 44.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+}
+
+
+.industry_right {
+  flex-basis: 20%;
+  display: flex;
+  height: 20vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.industry_right p {
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Inter", serif;
+  
+}
+
+
+
+.industry_right .reseaux {
+    flex-direction: column;
+    
+}
 
 
 
@@ -2529,6 +2619,74 @@ footer .licence {
 
 
 
+/* section industry----- */
+
+
+.industry {
+    padding: 3% 7%;
+    position: relative;
+
+
+}
+
+.industry_left {
+ flex-basis: 85%;
+ padding-left: 30px;
+  
+}
+
+
+
+.industry_left .industry_bloc {
+    /* height: 20vh; */
+    margin: 20px 0;
+}
+
+.industry_left .industry_bloc h1 {
+  font-size: 20px;
+  
+}
+
+.industry_left .industry_bloc p ,
+.industry_left_cook p
+{
+  font-size: 14px;
+  -webkit-line-clamp: 3; 
+  overflow: hidden;
+  margin: 30px 0;
+}
+
+
+.industry_left_cook {
+     
+}
+.industry_left_cook h1 {
+    font-size: 20px;
+    margin-bottom: 30px;
+    
+}
+.industry_left_cook p {
+  
+    
+}
+
+.industry_left .industry_left_bg {
+    height: 40vh;
+    width: 100%;
+    
+}
+
+
+.industry_right {
+ 
+  display: none;
+  height: 20vh;
+  
+}
+
+
+
+
 
 
 
@@ -3265,7 +3423,7 @@ footer .licence {
 
 
 .guide .guide_img {
-    height: 45vh;
+    height: 30vh;
     
    
 }
@@ -3273,6 +3431,67 @@ footer .licence {
 
 
 
+
+
+/* section industry----- */
+
+
+.industry {
+    padding: 3% 3%;
+    position: relative;
+
+
+}
+
+.industry_left {
+ flex-basis: 95%;
+ padding-left: 20px;
+  
+}
+
+
+
+.industry_left .industry_bloc {
+    /* height: 20vh; */
+    margin: 0px ;
+}
+
+.industry_left .industry_bloc h1 {
+  font-size: 18px;
+  
+}
+
+.industry_left .industry_bloc p ,
+.industry_left_cook p
+{
+  font-size: 12px;
+  -webkit-line-clamp: 3; 
+  overflow: hidden;
+  margin: 30px 0;
+}
+
+
+
+.industry_left_cook h1 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    
+}
+
+
+.industry_left .industry_left_bg {
+    height: 25vh;
+    width: 100%;
+    
+}
+
+
+.industry_right {
+ 
+  display: none;
+  height: 20vh;
+  
+}
 
 
 
