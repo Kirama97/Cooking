@@ -51,6 +51,7 @@
     justify-content: center;
     align-items: center;
     margin: 0 auto;
+
 }
 
 
@@ -66,7 +67,7 @@
   .carousel-indicators button {
     width: 25px;
     height: 15px;
-    border-radius: 50%;
+    border-radius: 30%;
   }
 
  
@@ -120,6 +121,10 @@ nav a {
    
 }
 
+
+nav a:hover {
+    color: rgb(0, 174, 255);
+}
 
 .reseaux{
     display: flex;
@@ -508,7 +513,8 @@ section {
     align-content: center;
     height: 500px;
     border-radius: 20px;
-    background-color: var(--blue);
+    background:linear-gradient(to bottom ,rgb(255, 255, 255),var(--blue));
+    padding: 0 10px;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -521,7 +527,7 @@ section {
 }
 
 .recipe_item:hover  {
-    background-color: white;
+    background:linear-gradient(to bottom ,rgb(255, 255, 255),rgba(201, 216, 223, 0.466));
 }
 
 .recipe_img {
@@ -552,7 +558,7 @@ section {
     position: absolute;
     width: 40px;
     top: 5%;
-    right: 2%;
+    right: 4%;
     background-color: rgb(255, 255, 255);
     border-radius: 50%;
     padding: 10px;
@@ -560,6 +566,10 @@ section {
     align-items: center;
     justify-content: center;
     transition: 0.5s ease;
+}
+
+.coeur svg.active {
+
 }
 
 .recipe_item:hover .coeur {
@@ -1494,6 +1504,124 @@ footer .licence {
 
 
 
+/* ----------------------page blog----------------------------------------- */
+
+
+/* section guide */
+
+.guide {
+    margin-top: 100px;
+    
+}
+
+.guide_texte {
+ 
+}
+
+.guide_texte h1 {
+    font-size: 45px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.guide_texte .guide_profil{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 80px;
+    
+}
+
+.guide_texte .guide_profil_left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+.guide_texte .guide_profil_left p {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0;
+}
+.guide_texte .guide_profil_left img {
+    width: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+
+.guide_texte .guide_profil_right {
+
+    border-left: 1px solid var(--p-color) ;
+    padding-left: 80px;
+   
+}
+.guide_texte .guide_profil_right p{
+   margin: 0;
+   color: var(--p-color);
+}
+
+.guide_texte .guide_description {
+    margin: 50px 0;
+    width: 80%;
+    margin: auto;
+    
+}
+.guide_texte .guide_description p {
+    color: var(--p-color);
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2; 
+    text-align: center;
+    overflow: hidden;
+    margin: 50px 0;
+
+}
+
+
+
+.guide .guide_img {
+    height: 70vh;
+    width: 100%;
+    border-radius: 30px;
+    background: url(/Resources/image/image\ 43.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* responsive */
 
 
@@ -2330,6 +2458,76 @@ footer .licence {
 
 
 
+/* ----------------------page blog----------------------------------------- */
+
+
+/* section guide */
+
+.guide {
+    margin-top: 80px;
+    
+}
+
+
+
+.guide_texte h1 {
+    font-size: 35px;
+   
+}
+
+.guide_texte .guide_profil{
+   
+    gap: 50px;
+    
+}
+
+.guide_texte .guide_profil_left {
+    gap: 15px;
+
+}
+.guide_texte .guide_profil_left p {
+    font-size: 14px;
+    /* font-weight: 500; */
+    margin: 0;
+}
+.guide_texte .guide_profil_left img {
+    width: 25px;
+    border-radius: 50%;
+    
+}
+
+
+
+.guide_texte .guide_profil_right {
+
+    padding-left: 50px;
+   
+}
+.guide_texte .guide_profil_right p{
+   font-size: 14px;
+}
+
+.guide_texte .guide_description {
+    margin: 40px 0;
+    width: 85%;
+    margin: auto;
+    
+}
+.guide_texte .guide_description p {
+   
+    margin: 40px 0;
+
+}
+
+
+
+.guide .guide_img {
+    height: 60vh;
+    
+   
+}
+
+
 
 
 
@@ -2618,7 +2816,7 @@ footer .licence {
          position: absolute;
          width: 30px;
          top: 5%;
-         right: 2%;
+         right: 5%;
          background-color: white;
          border-radius: 50%;
          padding: 5px;
@@ -3000,6 +3198,77 @@ footer .licence {
 }
 
 
+
+
+/* ----------------------page blog----------------------------------------- */
+
+
+/* section guide */
+
+.guide {
+    margin-top: 100px;
+    
+}
+
+
+
+.guide_texte h1 {
+    font-size: 25px;
+   
+}
+
+.guide_texte .guide_profil{
+   
+    gap: 20px;
+    
+}
+
+.guide_texte .guide_profil_left {
+    gap: 10px;
+
+}
+.guide_texte .guide_profil_left p {
+    font-size: 12px;
+    font-weight: 500;
+    margin: 0;
+}
+.guide_texte .guide_profil_left img {
+    width: 22px;
+    border-radius: 50%;
+    
+}
+
+
+
+.guide_texte .guide_profil_right {
+
+    padding-left: 20px;
+   
+}
+.guide_texte .guide_profil_right p{
+   font-size: 12px;
+}
+
+.guide_texte .guide_description {
+    margin: 20px 0;
+    width: 85%;
+    margin: auto;
+    
+}
+.guide_texte .guide_description p {
+   
+    margin: 30px 0;
+    font-size: 12px;
+
+}
+
+
+
+.guide .guide_img {
+    height: 45vh;
+    
+   
+}
 
 
 
