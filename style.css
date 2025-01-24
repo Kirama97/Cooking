@@ -2663,6 +2663,227 @@ section {
 
 
 
+/*- --------------section ingredient--------------------- */
+
+
+.ingredient {
+    /* background-color: #0091ff; */
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.ingredient_left {
+    width: 60%;
+}
+
+
+.ingredient_left h1 {
+    font-size: 25px;
+   
+   
+}
+
+
+.ingredient_left_bloc {
+    margin: 40px 0;
+}
+.ingredient_left_bloc h2 {
+  font-size: 18px;
+  
+}
+.ingredient_left_bloc ul {
+  
+   gap: 10px;
+}
+.ingredient_left_bloc ul li{
+   
+   padding: 20px 0;
+   border-bottom: 1px solid var(--border);
+   font-size: 14px;
+   display: flex;
+   gap: 20px;
+   align-items: center;
+   
+   
+}
+
+
+.ingredient_left_bloc ul li .disc ,
+.ingredient_direction li .disc {
+    border-radius: 50%;
+    padding: 10px;
+    border: 1px solid var(--border);
+}
+
+.ingredient_left_bloc ul li span{
+   
+   font-size: 14px;
+   
+   
+}
+
+
+
+#sup .disc {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: black;
+   padding: 3px;
+}
+#sup .disc svg {
+  width: 15px;
+  height: 15px;
+  fill: white;
+}
+
+
+.ingredient_right {
+  width: 35%;
+  /* background-color: #0091ff; */
+}
+
+.ingredient_right h2{
+    font-size: 24px;
+    font-weight: bold;
+
+}
+.ingredient_right .ingredient_right_bloc {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    gap: 20px;
+}
+.ingredient_right .ingredient_right_bloc img {
+   width: 45%;
+   border-radius: 20px;
+}
+
+
+
+.ingredient_right_bloc_text h3 {
+        font-size: 16px;
+        font-weight: 800;
+        margin-bottom: 10px;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2; 
+        overflow: hidden
+      
+
+}   
+
+.ingredient_right_bloc_text P{
+        font-size: 12px;
+        color: var(--p-color);
+    
+
+}
+
+.ingredien_pub {
+    margin-top: 60px;
+    width: 100%;
+    background-color: transparent;
+}
+.ingredien_pub img {
+   
+    width: 80%;
+    
+}
+
+
+.ingredient_left .industry_left_bg {
+    height: 50vh;
+    width: 100%;
+    background: url(/Resources/image/image\ 44.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+}
+
+
+
+.ingredient_direction {
+   
+   
+
+
+}
+
+.ingredient_direction h1 {
+ 
+
+}
+
+.ingredient_direction ul {
+  padding: 0px;
+  margin-top: 30px;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 30px;
+  width: 100%;
+  
+  
+}
+
+
+
+.ingredient_direction li {
+    margin: 30px 0;
+    display: flex;
+    gap: 30px;
+    width: 100%;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 50px;
+   
+
+}
+
+
+.ingredient_direction li .disc {
+    /* margin: 50px; */
+    align-self: self-start;
+    
+}
+
+
+.ingredient_direction .disc_text {
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.disc_text p {
+    font-family: Inter;
+font-size: 16px;
+
+line-height: 26px;
+letter-spacing: -0.02em;
+display: -webkit-box;
+-webkit-box-orient: vertical;
+-webkit-line-clamp: 4; 
+overflow: hidden
+
+
+}
+
+.disc_text h4{
+  
+    font-size: 20px;
+ 
+    line-height: 29.05px;
+    letter-spacing: -0.02em;
+    text-align: left;
+  
+    
+}
+
+
 
 
 
@@ -3687,6 +3908,224 @@ footer .licence {
 .recipe_header_bottom p {
 
    font-size: 14px;
+}
+
+
+
+/*- --------------section ingredient--------------------- */
+
+
+.ingredient {
+    /* background-color: #0091ff; */
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.ingredient_left {
+    width: 50%;
+}
+
+
+.ingredient_left h1 {
+    font-size: 18px;
+   
+   
+}
+
+
+.ingredient_left_bloc {
+    margin:20px 0;
+}
+.ingredient_left_bloc h2 {
+  font-size: 16px;
+  
+}
+.ingredient_left_bloc ul {
+  
+   gap: 10px;
+}
+.ingredient_left_bloc ul li{
+   
+   padding: 15px 0;
+   border-bottom: 1px solid var(--border);
+   font-size: 14px;
+   display: flex;
+   gap: 15px;
+   align-items: center;
+   
+   
+}
+
+
+.ingredient_left_bloc ul li .disc ,
+.ingredient_direction li .disc {
+    border-radius: 50%;
+    padding: 7px;
+    border: 1px solid var(--border);
+}
+
+.ingredient_left_bloc ul li span{
+   
+   font-size: 12px;
+   
+   
+}
+
+
+
+#sup .disc {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: black;
+   padding: 3px;
+}
+#sup .disc svg {
+  width: 10px;
+  height: 10px;
+  fill: white;
+}
+
+
+.ingredient_right {
+  width: 38%;
+  /* background-color: #0091ff; */
+}
+
+.ingredient_right h2{
+    font-size: 18px;
+    font-weight: bold;
+
+}
+.ingredient_right .ingredient_right_bloc {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+    gap: 15px;
+}
+.ingredient_right .ingredient_right_bloc img {
+   width: 40%;
+   border-radius: 10px;
+}
+
+
+
+.ingredient_right_bloc_text h3 {
+        font-size: 14px;
+        margin-bottom: 7px;
+       
+      
+
+}   
+
+.ingredient_right_bloc_text P{
+        font-size: 10px;
+        color: var(--p-color);
+    
+
+}
+
+.ingredien_pub {
+    margin-top: 30px;
+    width: 100%;
+   
+    background-color: transparent;
+}
+.ingredien_pub img {
+   
+    width: 80%;
+   object-fit: cover;
+   
+}
+
+
+.ingredient_left .industry_left_bg {
+    height: 30vh;
+    width: 100%;
+    background: url(/Resources/image/image\ 44.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+}
+
+
+
+.ingredient_direction {
+   
+   
+
+
+}
+
+.ingredient_direction h1 {
+ 
+
+}
+
+.ingredient_direction ul {
+  padding: 0px;
+  margin-top: 20px;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+  
+  
+}
+
+
+
+.ingredient_direction li {
+    margin: 20px 0;
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 30px;
+   
+
+}
+
+
+.ingredient_direction li .disc {
+    /* margin: 50px; */
+    align-self: self-start;
+    
+}
+
+
+.ingredient_direction .disc_text {
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.disc_text p {
+    font-family: Inter;
+font-size: 12px;
+
+line-height: 20px;
+letter-spacing: -0.02em;
+display: -webkit-box;
+-webkit-box-orient: vertical;
+-webkit-line-clamp: 3; 
+overflow: hidden
+
+
+}
+
+.disc_text h4{
+  
+    font-size: 16px;
+ 
+    line-height: 20.05px;
+    
+  
+    
 }
 
 
@@ -4736,6 +5175,213 @@ footer .licence {
 
 
 
+
+/*- --------------section ingredient--------------------- */
+
+
+.ingredient {
+    /* background-color: #0091ff; */
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.ingredient_left {
+    width: 100%;
+}
+
+
+.ingredient_left h1 {
+    font-size: 14px;
+   
+   
+}
+
+
+.ingredient_left_bloc {
+    margin:20px 0;
+}
+.ingredient_left_bloc h2 {
+  font-size: 12px;
+  
+}
+.ingredient_left_bloc ul {
+  
+   gap: 5px;
+}
+.ingredient_left_bloc ul li{
+   
+   padding: 10px 0;
+   border-bottom: 1px solid var(--border);
+   font-size: 10px;
+   display: flex;
+   gap: 10px;
+   align-items: center;
+   
+   
+}
+
+
+.ingredient_left_bloc ul li .disc ,
+.ingredient_direction li .disc {
+   
+    padding: 5px;
+   
+}
+
+.ingredient_left_bloc ul li span{
+   
+   font-size: 10px;
+   
+   
+}
+
+
+
+#sup .disc {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: black;
+   padding: 0px;
+}
+#sup .disc svg {
+  width: 10px;
+  height: 10px;
+  fill: white;
+}
+
+
+.ingredient_right {
+  width: 38%;
+  display: none;
+  /* background-color: #0091ff; */
+}
+
+
+.ingredient_right .ingredient_right_bloc img {
+   width: 40%;
+   border-radius: 10px;
+}
+
+
+
+.ingredient_right_bloc_text h3 {
+        font-size: 14px;
+        margin-bottom: 7px;
+       
+      
+
+}   
+
+.ingredient_right_bloc_text P{
+        font-size: 10px;
+        color: var(--p-color);
+    
+
+}
+
+.ingredien_pub {
+    margin-top: 30px;
+    width: 100%;
+   
+    background-color: transparent;
+}
+.ingredien_pub img {
+   
+    width: 80%;
+   object-fit: cover;
+   
+}
+
+
+.ingredient_left .industry_left_bg {
+    height: 30vh;
+    width: 100%;
+    background: url(/Resources/image/image\ 44.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+}
+
+
+
+.ingredient_direction {
+   
+   
+
+
+}
+
+.ingredient_direction h1 {
+ 
+
+}
+
+.ingredient_direction ul {
+  padding: 0px;
+  margin-top: 20px;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+  
+  
+}
+
+
+
+.ingredient_direction li {
+    margin: 5px 0;
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 30px;
+   
+
+}
+
+
+.ingredient_direction li .disc {
+    /* margin: 50px; */
+    align-self: self-start;
+    
+}
+
+
+.ingredient_direction .disc_text {
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.disc_text p {
+    font-family: Inter;
+font-size: 10px;
+
+line-height: 15px;
+letter-spacing: -0.02em;
+display: -webkit-box;
+-webkit-box-orient: vertical;
+-webkit-line-clamp: 3; 
+overflow: hidden
+
+
+}
+
+.disc_text h4{
+  
+    font-size: 12px;
+ 
+    line-height: 20.05px;
+    
+  
+    
+}
 
 
 
